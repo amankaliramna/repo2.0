@@ -1,0 +1,6 @@
+for i in $(seq 4 -1 1); do
+  for j in $(seq 1 $i); do
+   echo -n "$j"
+  done
+   echo 
+ done
